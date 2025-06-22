@@ -88,7 +88,7 @@ class DerivBot:
                 "duration": 1,
                 "duration_unit": "t",
                 "symbol": self.symbol,
-                "barrier": "4"
+                "barrier": "3"
             }
             ws.send(json.dumps(proposal_req))
             resp = ws.recv()
