@@ -3,7 +3,7 @@ import streamlit as st
 import time
 from deriv_bot import DerivBot
 
-st.title("🤖 Robô Famped - Estratégia Over4baseada em ticks")
+st.title("🤖 Robô OVR@conser")
 
 token = st.text_input("🎯 Insira seu token da Deriv", type="password")
 symbol = st.selectbox("Símbolo", ["R_100", "R_10"])
