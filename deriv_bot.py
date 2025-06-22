@@ -80,7 +80,7 @@ class DerivBot:
                     continue
 
                 contract_type = "DIGITOVER"
-                barrier = 3
+                barrier = 4
 
                 proposal = {
                     "buy": 1,
