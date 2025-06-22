@@ -3,8 +3,8 @@ import time
 import threading
 from deriv_bot import DerivBot
 
-st.set_page_config(page_title="Robô Famped", layout="centered")
-st.title("🤖 Robô Famped - Estratégia Over 3 baseada em ticks")
+st.set_page_config(page_title="Robô NEWFAM", layout="centered")
+st.title("🤖 Robô NEWFAM - Estratégia Over 4 baseada em ticks")
 
 token = st.text_input("🎯 Token da Deriv", type="password")
 symbol = st.selectbox("Símbolo", ["R_100", "R_10"])
